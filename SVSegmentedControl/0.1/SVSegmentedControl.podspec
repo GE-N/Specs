@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.description = 'SVSegmentedControl is a customizable UIControl class that mimics UISegmentedControl but that looks like an UISwitch.'
 
   s.source_files = 'SVSegmentedControl/*.{h,m}'
-  # s.clean_paths = 'Demo'
+  s.clean_paths = 'Demo'
   s.frameworks = 'QuartzCore'  
 end
